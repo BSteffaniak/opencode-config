@@ -10,6 +10,13 @@
       ]
     }
   },
+  "mcp": {
+    "github": {
+      "type": "local",
+      "command": ["npx", "-y", "mcp-remote", "https://api.githubcopilot.com/mcp/"],
+      "enabled": true
+    }
+  },
   "keybinds": {
     "leader": "ctrl+x",
     "app_help": "<leader>h",
