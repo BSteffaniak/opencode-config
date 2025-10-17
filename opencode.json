@@ -129,6 +129,7 @@
           "cargo clippy *": "allow",
           "cargo test *": "allow",
           "cargo nextest *": "allow",
+          "echo *": "allow",
           "ls *": "allow",
           "curl *": "allow",
           "jq *": "allow",
