@@ -61,7 +61,38 @@
       "tools": {
         "write": false,
         "edit": false,
-        "bash": false
+        "bash": true
+      },
+      "permission": {
+        "bash": {
+          "gh issue list *": "allow",
+          "gh issue view *": "allow",
+          "gh pr list": "allow",
+          "gh pr view *": "allow",
+          "gh pr diff *": "allow",
+          "gh repo view *": "allow",
+          "gh status": "allow",
+          "git status": "allow",
+          "git log *": "allow",
+          "git show *": "allow",
+          "git diff *": "allow",
+          "git branch *": "allow",
+          "cargo check": "allow",
+          "cargo test --no-run": "allow",
+          "ls *": "allow",
+          "jq *": "allow",
+          "cat *": "allow",
+          "sort *": "allow",
+          "pwd": "allow",
+          "find *": "allow",
+          "grep *": "allow",
+          "head *": "allow",
+          "tail *": "allow",
+          "wc *": "allow",
+          "rg *": "allow",
+          "xargs *": "allow",
+          "*": "deny"
+        }
       }
     }
   }
