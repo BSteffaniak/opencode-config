@@ -19,6 +19,15 @@
       "extensions": [
         ".toml"
       ]
+    },
+    "prettierd": {
+      "command": [
+        "prettierd",
+        "$FILE"
+      ],
+      "extensions": [
+        ".md"
+      ]
     }
   },
   "lsp": {
