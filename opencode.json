@@ -9,6 +9,16 @@
       "extensions": [
         ".rs"
       ]
+    },
+    "taplo": {
+      "command": [
+        "taplo",
+        "fmt",
+        "$FILE"
+      ],
+      "extensions": [
+        ".toml"
+      ]
     }
   },
   "lsp": {
