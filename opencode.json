@@ -83,6 +83,22 @@
         "write": true,
         "edit": true,
         "bash": true
+      },
+      "permission": {
+        "bash": {
+          "*": "allow",
+          "git checkout *": "deny",
+          "git add *": "deny",
+          "git reset *": "deny",
+          "git remove *": "deny",
+          "git commit *": "deny",
+          "git push *": "deny",
+          "git pull *": "deny",
+          "git merge *": "deny",
+          "git rebase *": "deny",
+          "git revert *": "deny",
+          "git cherry-pick *": "deny"
+        }
       }
     },
     "plan": {
