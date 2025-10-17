@@ -133,6 +133,7 @@
           "cargo test *": "allow",
           "cargo nextest *": "allow",
           "echo *": "allow",
+          "uniq *": "allow",
           "ls *": "allow",
           "curl *": "allow",
           "jq *": "allow",
