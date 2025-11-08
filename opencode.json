@@ -89,7 +89,8 @@
           "git stash apply": "deny",
           "git stash clear": "deny",
           "git stash create": "deny",
-          "git stash store": "deny"
+          "git stash store": "deny",
+          "brew install *": "deny"
         }
       }
     },
