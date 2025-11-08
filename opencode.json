@@ -189,6 +189,11 @@
           "flyctl logs *": "allow",
           "flyctl status": "allow",
           "flyctl status *": "allow",
+          "nix search *": "allow",
+          "readelf *": "allow",
+          "llvm-objdump *": "allow",
+          "stat *": "allow",
+          "bpftool *": "allow",
           "*": "deny"
         }
       }
